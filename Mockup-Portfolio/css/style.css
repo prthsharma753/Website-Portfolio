@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+hr {
+    border-color: #b9b9b9;
+    border-width: 4px;
+    margin: 0 0 25px 0;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header*/
+.title-logo {
+    margin: 20px 0 0 0;
+    float: left;
+    max-width: 100%;
+}
+
+
+.title-name {
+    font-size: 56px;
+    color: #808080;
+    margin: 25px 10px 3px 0;
+}
+
+
+.subtitle-name {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+
+.text-thinner {
+    font-weight: 100;
+}
+
+
+.text-thin {
+    font-weight: 300;
+}
+
+
+.featured-text {
+    margin: 28px 0 10px 10px;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #c1c1c1;
+}
+
+/*Breakpoints*/
+@media (max-width: 530px) {
+    .title-logo {
+        width: 125px;
+    }
+
+
+    .title-name {
+        font-size: 40px;
+    }
+
+
+    .subtitle-name {
+        font-size: 18px;
+    }
+
+
+    .featured-text {
+        font-size: 30px;
+    }
+
+
+    .content-text {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 453px) {
+
+    .title-logo {
+        margin-top: 14px;
+        width: 120px;
+    }
+
+
+    .title-name {
+        margin-top: 23px;
+        font-size: 35px;
+    }
+
+
+    .featured-text {
+        font-size: 25px;
+        margin: 10px 0 3px 0;
+    }
+
+    .link-text {
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 395px) {
+    .title-logo {
+        width: 90px;
+    }
+
+
+    .title-name {
+        font-size: 28px;
+    }
+
+
+    .subtitle-name {
+        font-size: 15px;
+    }
+
+
+    hr {
+        margin-bottom: 10px;
+    }
+
+
+    .featured-text {
+        font-size: 22px;
+    }
+
+
+    .content-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .title-logo {
+        width: 150px;
+    }
+
+    .subtitle-name {
+        font-size: 32px;
+    }
+
+    hr {
+        border-width: 10px;
+        border-color: #00E5FF
+    }
+
+    .col-12 {
+        margin: 15px 0;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    h3 {
+        font-size: 56px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .container-grid {
+        display: flex;
+    }
+
+    .row-feature {
+        width: 33.33333333%;
+        margin-right: 0;
+    }
+
+    .img-feature {
+        width: 90%;
+    }
+}
+
+
